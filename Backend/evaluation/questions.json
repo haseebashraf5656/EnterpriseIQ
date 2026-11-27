@@ -1,0 +1,237 @@
+[
+  {
+    "question": "How many days of annual leave do employees get each year?",
+    "type": "direct",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the probation period for new employees?",
+    "type": "direct",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      1
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many hours is the standard work week?",
+    "type": "direct",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      2
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How much is the daily meal allowance during business travel?",
+    "type": "direct",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many weeks of maternity leave are paid?",
+    "type": "direct",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "question": "When do carried-forward leave days expire?",
+    "type": "direct",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many vacation days can staff save for next year?",
+    "type": "paraphrase",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How long do I have to hand in my travel cost reimbursement requests?",
+    "type": "paraphrase",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What pay rate applies when someone works extra hours?",
+    "type": "paraphrase",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      2
+    ],
+    "answerable": true
+  },
+  {
+    "question": "When do I need a doctor's note for being ill?",
+    "type": "paraphrase",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the form code for expense claims?",
+    "type": "exact_term",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Which form is used to declare gifts?",
+    "type": "exact_term",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the ethics hotline extension?",
+    "type": "exact_term",
+    "expected_filename": "Acme_HR_Policy.pdf",
+    "expected_pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the default port for NimbusDB?",
+    "type": "direct",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      1
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How often are automatic backups created?",
+    "type": "direct",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How long are backups retained?",
+    "type": "direct",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the default value of max_connections?",
+    "type": "direct",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      2
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many failed logins cause an account lockout?",
+    "type": "direct",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How much memory does the server need at minimum?",
+    "type": "paraphrase",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      1
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How long is a login token valid?",
+    "type": "paraphrase",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What does error ERR-503 mean?",
+    "type": "exact_term",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Which command applies the migration when upgrading to 4.8?",
+    "type": "exact_term",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What does ERR-912 mean?",
+    "type": "exact_term",
+    "expected_filename": "NimbusDB_Admin_Manual.pdf",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the company policy on bringing pets to the office?",
+    "type": "unanswerable",
+    "expected_filename": null,
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "question": "How much is the annual performance bonus?",
+    "type": "unanswerable",
+    "expected_filename": null,
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the price of a NimbusDB enterprise license?",
+    "type": "unanswerable",
+    "expected_filename": null,
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the capital of France?",
+    "type": "unanswerable",
+    "expected_filename": null,
+    "expected_pages": [],
+    "answerable": false
+  }
+]
